@@ -59,7 +59,7 @@
 											"font": "Arial;13;1",
 											"left": 197,
 											"top": 247,
-											"width": 118.84716796875,
+											"width": 137.66162109375,
 											"height": 13,
 											"text": "Kunde"
 										},
@@ -90,7 +90,7 @@
 									"font": "Arial;13;0",
 									"left": 192,
 									"top": 240,
-									"width": 128.84716796875,
+									"width": 147.66162109375,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF0fFoWDTSSNqg="
@@ -127,9 +127,9 @@
 											"font": "Arial;13;0",
 											"left": 197,
 											"top": 270,
-											"width": 118.84716796875,
+											"width": 137.66162109375,
 											"height": 13,
-											"text": "+Kundennummer",
+											"text": "+Kundennummer String",
 											"horizontalAlignment": 0
 										},
 										{
@@ -144,16 +144,16 @@
 											"font": "Arial;13;0",
 											"left": 197,
 											"top": 285,
-											"width": 118.84716796875,
+											"width": 137.66162109375,
 											"height": 13,
-											"text": "+password",
+											"text": "-Passwort",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 192,
 									"top": 265,
-									"width": 128.84716796875,
+									"width": 147.66162109375,
 									"height": 38
 								},
 								{
@@ -178,7 +178,7 @@
 											"font": "Arial;13;0",
 											"left": 197,
 											"top": 308,
-											"width": 118.84716796875,
+											"width": 137.66162109375,
 											"height": 13,
 											"text": "+Film ausleihen()",
 											"horizontalAlignment": 0
@@ -195,7 +195,7 @@
 											"font": "Arial;13;0",
 											"left": 197,
 											"top": 323,
-											"width": 118.84716796875,
+											"width": 137.66162109375,
 											"height": 13,
 											"text": "+Film zurückgeben()",
 											"horizontalAlignment": 0
@@ -212,7 +212,7 @@
 											"font": "Arial;13;0",
 											"left": 197,
 											"top": 338,
-											"width": 118.84716796875,
+											"width": 137.66162109375,
 											"height": 13,
 											"text": "+Geld aufladen()",
 											"horizontalAlignment": 0
@@ -229,7 +229,7 @@
 											"font": "Arial;13;0",
 											"left": 197,
 											"top": 353,
-											"width": 118.84716796875,
+											"width": 137.66162109375,
 											"height": 13,
 											"text": "+passwort ändern()",
 											"horizontalAlignment": 0
@@ -238,7 +238,7 @@
 									"font": "Arial;13;0",
 									"left": 192,
 									"top": 303,
-									"width": 128.84716796875,
+									"width": 147.66162109375,
 									"height": 68
 								},
 								{
@@ -274,7 +274,7 @@
 							"containerChangeable": true,
 							"left": 192,
 							"top": 240,
-							"width": 128.84716796875,
+							"width": 147.66162109375,
 							"height": 131,
 							"nameCompartment": {
 								"$ref": "AAAAAAF0fFoWDTSRh9Y="
@@ -541,7 +541,7 @@
 										"$ref": "AAAAAAF0fF7vITU0Yvw="
 									},
 									"font": "Arial;13;0",
-									"left": 398,
+									"left": 407,
 									"top": 280,
 									"width": 43.00537109375,
 									"height": 13,
@@ -551,7 +551,7 @@
 										"$ref": "AAAAAAF0fF7vIjU4lw4="
 									},
 									"edgePosition": 1,
-									"text": "+n zu 1"
+									"text": "+n zu n"
 								},
 								{
 									"_type": "EdgeLabelView",
@@ -564,7 +564,7 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 419,
+									"left": 428,
 									"top": 265,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -585,7 +585,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 420,
+									"left": 429,
 									"top": 309,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -606,8 +606,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 346,
-									"top": 282,
+									"left": 365,
+									"top": 281,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -627,8 +627,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 348,
-									"top": 269,
+									"left": 367,
+									"top": 268,
 									"height": 13,
 									"alpha": 0.7853981633974483,
 									"distance": 40,
@@ -648,7 +648,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 342,
+									"left": 361,
 									"top": 309,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -710,7 +710,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 497,
-									"top": 306,
+									"top": 305,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 25,
@@ -755,7 +755,7 @@
 								"$ref": "AAAAAAF0fFoWDTSQIso="
 							},
 							"lineStyle": 1,
-							"points": "321:304;519:299",
+							"points": "340:303;519:299",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF0fF7vIjU5FNg="
@@ -807,7 +807,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF0fFoWDDSOerU="
 							},
-							"name": "n zu 1",
+							"name": "n zu n",
 							"end1": {
 								"_type": "UMLAssociationEnd",
 								"_id": "AAAAAAF0fF7vITU19VA=",
@@ -837,7 +837,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF0fFoWDDSOerU="
 							},
-							"name": "Kundennummer"
+							"name": "Kundennummer String"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -845,7 +845,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF0fFoWDDSOerU="
 							},
-							"name": "password"
+							"name": "Passwort",
+							"visibility": "private"
 						}
 					],
 					"operations": [
@@ -897,7 +898,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF0fFs9YjTGtEU="
 							},
-							"name": "Name"
+							"name": "Name",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -905,7 +907,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF0fFs9YjTGtEU="
 							},
-							"name": "Preis"
+							"name": "Preis",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -913,7 +916,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF0fFs9YjTGtEU="
 							},
-							"name": "ausgeliehen"
+							"name": "ausgeliehen",
+							"type": ""
 						}
 					]
 				}
