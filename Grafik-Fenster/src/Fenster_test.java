@@ -1,7 +1,7 @@
 import java.awt.*;
 import java.awt.event.*;
 
-import java.applet.Applet;
+
 
 
 public class Fenster_test extends Frame {
@@ -17,22 +17,25 @@ public class Fenster_test extends Frame {
 			public void windowClosing(WindowEvent we) {
 				tries ++;
 //				System.exit(0);
-				if (sometext == "Hallo?") {
+				if (sometext.equals("Hallo?")) {
 					sometext = "Wollen Sie etwa das Window schließen ?";
 				} else {
-					if (sometext == "Wollen Sie etwa das Window schließen ?") {
+					if (sometext.equals("Wollen Sie etwa das Window schließen ?")) {
 						sometext = "Versuchen Sie es noch einmal (•̀ᴗ•́)و ̑̑ ";
 					} else {
-						if (sometext == "Versuchen Sie es noch einmal (•̀ᴗ•́)و ̑̑ " && tries == 6) {
+						if (sometext.equals("Versuchen Sie es noch einmal (•̀ᴗ•́)و ̑̑ ") && tries == 6) {
 							System.exit(0);
 						}
 					}
 
 				}
+
+
 			}
 
-//			this.repaint();
-			
+
+
+
 		});
 
 		this.setVisible(true);
@@ -43,4 +46,8 @@ public class Fenster_test extends Frame {
 	public void paint(Graphics g) {
 		g.drawString(sometext, 200, 100);
 	}
+
+
+
 }
+
