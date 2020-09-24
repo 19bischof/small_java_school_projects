@@ -9,14 +9,13 @@ public class Fenster_test extends Frame {
 	int tries = 0;
 	public Fenster_test() {
 		super("Einen wunderschönen Morgen Herr Bischof");
-		this.setSize(1000, 1000);
+		this.setSize(500, 300);
 		this.setLocation(1000, 0);
 
 		this.addWindowListener(new WindowAdapter() {
 
 			public void windowClosing(WindowEvent we) {
 				tries ++;
-//				System.exit(0);
 				if (sometext.equals("Hallo?")) {
 					sometext = "Wollen Sie etwa das Window schließen ?";
 				} else {
@@ -30,7 +29,8 @@ public class Fenster_test extends Frame {
 
 				}
 
-
+				Fenster_test.this.repaint();
+				//this is so nice
 			}
 
 
@@ -39,7 +39,7 @@ public class Fenster_test extends Frame {
 		});
 
 		this.setVisible(true);
-//		
+
 
 	}
 
